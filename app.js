@@ -53,7 +53,7 @@ export default class Card extends Component {
           style={[
             styles.drag,
             {
-              transform: [{ perspective: 800 }, { rotateY: interpolatedRotation }]
+              transform: [{ rotateY: interpolatedRotation }]
             }
           ]}
           {...this.panResponder.panHandlers}
